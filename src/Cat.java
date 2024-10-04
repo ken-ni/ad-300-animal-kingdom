@@ -10,10 +10,12 @@ public class Cat extends Animal {
         System.out.println("Meow meow");
     }
 
+    // Animal-specific line for behavior
     void groom() {
         System.out.println("(The cat starts grooming itself)");
     }
 
+    // Explicitly inherits and outputs superclass method displayInfo, and displays animal-specific behavior after
     void displayInfo() {
         super.displayInfo();
         System.out.println("Behavior: groom() \n");
